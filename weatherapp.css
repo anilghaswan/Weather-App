@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Card {
+  height: 380px;
+  width: 270px;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(0, 174, 255), rgb(0, 255, 238));
+  margin-top: 40px;
+  flex-wrap: nowrap;
+}
+input {
+  background-color: white;
+  height: 30px;
+  width: 180px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px 0px 0px 10px;
+  display: flex;
+}
+#search {
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: relative;
+  top: -33px;
+  left: 215px;
+  color: black;
+}
+.image {
+  height: 100px;
+  width: 120px;
+  align-items: center;
+  color: white;
+  background-image: url("./cloud_weather-removebg-preview.png");
+  background-size: cover;
+  margin: -20px 0px 0px 70px;
+}
+.temp {
+  margin-left: 90px;
+  margin-top: 5px;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.city {
+  margin-left: 90px;
+  margin-top: 5px;
+  color: white;
+  font-size: 40px;
+}
+
+.details {
+  width: 270px;
+  height: 130px;
+  /* background: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px 0px 30px;
+  color: white;
+}
+.humidity {
+  height: 130px;
+  width: 130px;
+}
+.humidity img {
+  height: 50px;
+  width: 50px;
+}
+.wind {
+  height: 130px;
+  width: 130px;
+  color: white;
+}
+.wind img {
+  height: 50px;
+  color: white;
+  width: 50px;
+}
