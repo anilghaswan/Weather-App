@@ -47,9 +47,12 @@ input {
   width: 120px;
   align-items: center;
   color: white;
-  background-image: url("./cloud_weather-removebg-preview.png");
   background-size: cover;
   margin: -20px 0px 0px 70px;
+}
+.image img {
+  height: 100px;
+  width: 120px;
 }
 .temp {
   margin-left: 90px;
